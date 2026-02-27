@@ -1,0 +1,187 @@
+.page {
+  min-height: 100vh;
+  background: #f0f2f5;
+}
+
+.header {
+  background: #2e7d32;
+  color: white;
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo { font-size: 22px; }
+
+.title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.user { font-size: 14px; }
+
+.btn-logout {
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: 1px solid rgba(255,255,255,0.4);
+  padding: 5px 14px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 16px;
+}
+
+.input-bar {
+  background: #4caf50;
+  padding: 14px 16px;
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-label {
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.input-bar input {
+  flex: 1;
+  padding: 8px 12px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: monospace;
+  border-radius: 4px;
+  border: none;
+}
+
+.input-bar input.input-error {
+  border: 2px solid #c62828;
+}
+
+.btn-generate {
+  background: #f57c00;
+  color: white;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.btn-add {
+  background: #1565c0;
+  color: white;
+  font-weight: 700;
+  padding: 8px 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.field-error {
+  background: #ffebee;
+  color: #c62828;
+  padding: 8px 14px;
+  font-size: 13px;
+  border-left: 3px solid #c62828;
+}
+
+.table-wrapper {
+  background: white;
+  border-radius: 0 0 8px 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead tr {
+  background: #e8f5e9;
+}
+
+th {
+  padding: 10px 14px;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 700;
+  color: #2e7d32;
+  border-bottom: 2px solid #c8e6c9;
+}
+
+tbody tr {
+  border-bottom: 1px solid #f0f0f0;
+  transition: background 0.15s;
+}
+
+tbody tr:hover {
+  background: #f9fbe7;
+}
+
+td {
+  padding: 8px 14px;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.code-cell {
+  font-family: monospace;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #1b5e20;
+  font-weight: 600;
+}
+
+.barcode-cell {
+  padding: 4px 14px;
+}
+
+.barcode-img {
+    height: 50px;
+    width: 100%;
+}
+
+.action-cell {
+  text-align: center;
+}
+
+.btn-delete {
+  background: #c62828;
+  color: white;
+  padding: 5px 14px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.center-cell {
+  text-align: center;
+  padding: 40px;
+  color: #999;
+}
+
+.empty {
+  font-size: 15px;
+}
