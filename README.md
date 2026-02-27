@@ -4,8 +4,8 @@
 
 | Layer | Technology |
 |-------|-----------|
-| Frontend | Vue 3, TypeScript, Pinia, Vue Router, Axios |
-| Backend | .NET 9 Web API, EF Core 9, JWT Bearer |
+| Frontend | Vue , TypeScript |
+| Backend | .NET 10 Web API, EF Core 9, JWT Bearer |
 | Database | Microsoft SQL Server 2022 (Docker) |
 | Testing | xUnit, Moq, FluentAssertions |
 
@@ -39,4 +39,3 @@ Login
 | Username | Password |
 |----------|----------|
 | `admin` | `Admin@1234` |
-| `user1` | `User@1234` |
