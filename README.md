@@ -5,7 +5,7 @@
 | Layer | Technology |
 |-------|-----------|
 | Frontend | Vue , TypeScript |
-| Backend | .NET 10 Web API, EF Core 9, JWT Bearer |
+| Backend | .NET 10 Web API, EF Core 10, JWT Bearer |
 | Database | Microsoft SQL Server 2022 (Docker) |
 | Testing | xUnit, Moq, FluentAssertions |
 
